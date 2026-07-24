@@ -1,5 +1,6 @@
 import React from 'react';
 import ProjectCard from './components/ProjectCard'; 
+import ContactForm from './components/ContactForm';
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-900 text-white flex flex-col items-center justify-center p-6">
@@ -35,6 +36,8 @@ export default function Home() {
           />
         </div>
       </div>
+      {/* 📬 Contact Form Section */}
+      <ContactForm />
 
     </main>
   );
