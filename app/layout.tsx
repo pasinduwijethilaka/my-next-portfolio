@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Pasindu | Full-Stack Developer Portfolio",
-  description: "Full-Stack Engineer specializing in modern, high-performance web applications with Next.js, React, and Supabase.",
+  description: "Full-Stack Engineer specializing in modern, high-performance web/mobile applications.",
   keywords: ["Next.js", "React", "Full-Stack Developer", "Portfolio", "Supabase", "Pasindu"],
   authors: [{ name: "Pasindu" }],
   openGraph: {
