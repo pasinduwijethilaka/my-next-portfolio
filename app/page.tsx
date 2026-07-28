@@ -36,19 +36,39 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-slate-900 text-white flex flex-col items-center justify-center p-6">
       
-      {/* 🚀 Hero Section */}
-      <div className="max-w-2xl text-center bg-slate-800/50 border border-slate-700 p-8 rounded-2xl shadow-xl mb-10 backdrop-blur-sm">
-        <h1 className="text-3xl font-bold text-sky-400 mb-2">
-          ⚡ Welcome to My Next.js Portfolio
-        </h1>
-        <p className="text-slate-300 text-sm mb-6">
-          Full-Stack Software Engineer building modern, fast & scalable web apps.
-        </p>
+<section className="py-20 text-center max-w-3xl mx-auto px-4">
+  {/* Status Badge */}
+  <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-sky-500/10 border border-sky-500/20 text-sky-400 text-xs font-medium mb-6">
+    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+    Available for new projects & opportunities
+  </div>
 
-        <button className="bg-sky-500 hover:bg-sky-600 text-slate-900 font-bold text-sm px-6 py-2.5 rounded-lg transition duration-200">
-          Get in Touch
-        </button>
-      </div>
+  {/* Main Title */}
+  <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight text-white mb-6">
+    Crafting Scalable <span className="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-emerald-400">Web Experiences.</span>
+  </h1>
+
+  {/* Subtitle */}
+  <p className="text-slate-400 text-base sm:text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
+    Hi, I&apos;m <span className="text-slate-200 font-semibold"> Pasindu </span> — a Full-Stack Engineer specializing in building modern, high-performance web/mobile applications.
+  </p>
+
+  {/* Call to Action Buttons */}
+  <div className="flex flex-wrap justify-center gap-4">
+    <a
+      href="#projects"
+      className="bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold px-6 py-3 rounded-xl transition duration-200 text-sm shadow-lg shadow-sky-500/20"
+    >
+      View My Work
+    </a>
+    <a
+      href="#contact"
+      className="bg-slate-800 hover:bg-slate-700 text-slate-200 font-semibold px-6 py-3 rounded-xl border border-slate-700 transition duration-200 text-sm"
+    >
+      Get in Touch
+    </a>
+  </div>
+</section>
 
       {/* 📦 Dynamic Supabase Project Cards Section */}
       <div className="max-w-4xl w-full mb-10">
