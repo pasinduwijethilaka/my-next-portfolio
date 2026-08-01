@@ -5,6 +5,7 @@ import ProjectCard from './components/ProjectCard';
 import ContactForm from './components/ContactForm';
 import { supabase } from './components/supabaseClient'
 import FadeIn from './components/FadeIn'
+import Skills from './components/Skills';
 
 // Supabase Data Type එක Define කරගමු (TypeScript එක සඳහා)
 interface Project {
@@ -73,7 +74,13 @@ export default function Home() {
           </div>
         </section>
       </FadeIn>
+{/* 🛠️ Skills Section */}
+<Skills />
 
+{/* 📦 Dynamic Supabase Project Cards Section */}
+<div id="projects" className="max-w-4xl w-full mb-16">
+  {/* Projects code... */}
+</div>
       {/* 📦 Dynamic Supabase Project Cards Section */}
       <div id="projects" className="max-w-4xl w-full mb-16">
         <FadeIn delay={0.2} direction="up">
