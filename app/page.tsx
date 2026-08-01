@@ -6,6 +6,7 @@ import ContactForm from './components/ContactForm';
 import { supabase } from './components/supabaseClient'
 import FadeIn from './components/FadeIn'
 import Skills from './components/Skills';
+import Navbar from './components/Navbar';
 
 // Supabase Data Type එක Define කරගමු (TypeScript එක සඳහා)
 interface Project {
@@ -36,8 +37,8 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="min-h-screen bg-slate-900 text-white flex flex-col items-center justify-center p-6">
-      
+    <main className="min-h-screen bg-slate-900 text-white flex flex-col items-center justify-center p-6 pt-28">
+      <Navbar />
       {/* ⚡ Hero Section */}
       <FadeIn delay={0.1} direction="up">
         <section className="py-20 text-center max-w-3xl mx-auto px-4">
