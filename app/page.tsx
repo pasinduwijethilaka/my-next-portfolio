@@ -8,6 +8,7 @@ import FadeIn from './components/FadeIn'
 import Skills from './components/Skills';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Timeline from './components/Timeline';
 
 // Supabase Data Type එක Define කරගමු (TypeScript එක සඳහා)
 interface Project {
@@ -78,7 +79,8 @@ export default function Home() {
       </FadeIn>
 {/* 🛠️ Skills Section */}
 <Skills />
-
+{/* 🎓 Education & Journey Timeline */}
+      <Timeline />
 {/* 📦 Dynamic Supabase Project Cards Section */}
 <div id="projects" className="max-w-4xl w-full mb-16">
   {/* Projects code... */}

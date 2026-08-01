@@ -40,6 +40,9 @@ export default function Navbar() {
           <a href="#skills" className="hover:text-sky-400 transition">
             Skills
           </a>
+          <a href="#education" className="hover:text-sky-400 transition">
+            Education
+          </a>
           <a href="#projects" className="hover:text-sky-400 transition">
             Projects
           </a>
