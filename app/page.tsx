@@ -7,6 +7,7 @@ import { supabase } from './components/supabaseClient'
 import FadeIn from './components/FadeIn'
 import Skills from './components/Skills';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 // Supabase Data Type එක Define කරගමු (TypeScript එක සඳහා)
 interface Project {
@@ -120,7 +121,8 @@ export default function Home() {
           <ContactForm />
         </FadeIn>
       </div>
-
+      {/* 🌐 Footer Section */}
+      <Footer />
     </main>
   );
 }
