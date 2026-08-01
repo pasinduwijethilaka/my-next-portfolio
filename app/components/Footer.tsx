@@ -13,7 +13,7 @@ export default function Footer() {
             Pasindu<span className="text-sky-400">.dev</span>
           </p>
           <p className="text-xs text-slate-400 mt-1">
-            © {new Date().getFullYear()} Pasindu. Built with Next.js, React & Supabase.
+            © {new Date().getFullYear()} Pasindu.
           </p>
         </div>
 
